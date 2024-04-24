@@ -1,0 +1,48 @@
+/* TEAM */<br>
+	Chef: Sebastien GLIPPA<br>
+	Contact: sebastien.glippa [at] hotmail.fr<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+
+	UI developer: Sebastien GLIPPA<br>
+	Contact: sebastien.glippa [at] hotmail.fr<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+
+	One eyed illustrator: Sebastien GLIPPA<br>
+	Contact: sebastien.glippa [at] hotmail.fr<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+
+	Standard Man: Sebastien GLIPPA<br>
+	Contact: sebastien.glippa [at] hotmail.fr<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+
+	Web designer: Sebastien GLIPPA<br>
+	Contact: sebastien.glippa [at] hotmail.fr<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+
+/* THANKS */<br>
+	(First) EN Translator: Sebastien GLIPPA<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+
+	EN Translator: Sebastien GLIPPA<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+		
+	FR Translator: Sebastien GLIPPA<br>
+	Twitter: @twitter<br>
+	From: PLOMODIERN, Bretagne, France<br><br>
+	
+	Media Queries by: Sebastien GLIPPA (@twitter)<br><br>
+		
+/* SITE */<br>
+	Last update: 2022/02/12<br>
+	Last update: 2022/02/12<br>
+	Project Start: 2022/11/20<br>
+	Language: English / French <br>
+	Doctype: HTML5<br>
+	IDE: Sublime Text, Visual Studio Code, FileZilla, GIMP<br>

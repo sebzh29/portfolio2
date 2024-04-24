@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google -->
+    <meta name="google-site-verification" content="EnNqkWZdR0h9VVNXFuNGmSBXJ9bzoMEPZ7GidPFYNQ8" />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>    
+    <title>Sébastien Glippa</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/images/favicon.ico">
+    <!-- DESCRIPTION -->
+    <meta name='description' content='Sébastien Glippa, alternance, développement web Quimper, Chateaulin, Douarnenez, full-remote. HTML, CSS/SCSS, JavaScript, PHP, MySQL, Symfony, Bootstap...'>   
+</head>
+
+<!-- navbar -->
+<body data-bs-spy="scroll" data-bs-target="#myNavbar">
+
+    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Expériences professionnelles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formation">Formations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reseaux">Réseaux</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- A PROPOS DE -->
+    <section id="about" class="container-fluid">
+        <div class="col-8 col-lg-4 profile-picture">
+            <img src="assets/images/photocvnb.png" alt="photocvnb" class="rounded-circle">
+        </div>
+        
+        <div class="heading">
+            <h1>Sébastien Glippa</h1>
+            <h3>Développeur Web</h3>
+            <a href="assets/docs/CV_Sebastien_GLIPPA.pdf" class="btn1">Télécharger CV</a>
+        </div>        
+    </section>
+
+    <!-- COMPETENCES -->
+    <section id="skills">
+        <div class="divider"></div>
+        <div class="heading">
+            <h2>Compétences</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><h5>HTML 85%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><h5>CSS 75%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><h5>BOOTSTRAP 75%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><h5>JAVASCRIPT 65%</h5></div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><h5>JQUERY 60%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><h5>PHP 65%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><h5>SYMFONY 80%</h5></div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><h5>MYSQL 70%</h5></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- EXPRERIENCES PROFESSIONNELLES -->
+    <section id="experience">
+        <div class="container">
+            <div class="divider white"></div>
+            <div class="heading">
+                <h2>Expériences Professionnelles</h2>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>BZH</h3>
+                                <h4>Développeur fullstack</h4>
+                                <p class="text-muted"><span class="bi-clock-fill"> 02/2022 - 05/2022</span></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Créer le cahier des charges avec le client, contenu et fonctionnalités</p>
+                                <p>Maquetter sous Figma et Canva, MCD JMerise, BDD mySQL</p>
+                                <P>Développer en full-stack avec Symfony 5, Bootstrap, EasyAdmin V3</P>
+                                <p>Mettre en place les API Stripe et Mailjet, un outil de statistiques auto-hébergé
+                                    "Matomo"</p>
+                                <p>Personnaliser les pages "erreurs", utilisation de Git / Github</p>
+                                <a href="https://github.com/sebzh29/Bzhgyotaku2" target="_blank">Github (code)</a>
+                            </div>
+                        </div>
+                    </div>                
+                </li>
+
+                <li>
+                    <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>AFPA</h3>
+                                <h4>Développeur Web</h4>
+                                <p class="text-muted"><span class="bi-clock-fill"> 06/2021</span></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Réaliser un site responsive en HTML CSS PHP</p>                            
+                                <a href="https://www.schoolofweb.tech/Sebastien-G" target="_blank">Site du projet</a>
+                            </div>
+                        </div>
+                    </div>                
+                </li>
+
+                <li>
+                    <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>ERT Technologies</h3>
+                                <h4>Technicien réseau</h4>
+                                <p class="text-muted"><span class="bi-clock-fill"> 2015 - 2021</span></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>ADSL Fibre Optique CISCO</p>
+                                <p>Reflectometrie, photométrie</p>
+                                <p>Soudure optique, recherche de pannes</p>                            
+                            </div>
+                        </div>
+                    </div>                
+                </li>
+
+                <li>
+                    <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Chancerelle</h3>
+                                <h4>Technicien support informatique</h4>
+                                <p class="text-muted"><span class="bi-clock-fill"> 2013 - 2015</span></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Support informatique et applicatif</p>  
+                                <p>Déploiement applications, matériels</p> 
+                                <p>Gestion parc, utilisateurs</p>                         
+                            </div>
+                        </div>
+                    </div>                
+                </li>
+
+                <li>
+                    <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SSII</h3>
+                                <h4>Responsable d'équipe, Support, Infogérance</h4>
+                                <p class="text-muted"><span class="bi-clock-fill"> 2001 - 2013</span></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Support informatique et applicatif</p>  
+                                <p>Déploiement applications, machines</p>
+                                <p>Gestion projets (onduleur, copieur ...)</p>
+                                <p>Management d'équipes (hotline, support niv 1&2)</p>                          
+                            </div>
+                        </div>
+                    </div>                
+                </li>
+                
+            </ul>
+        </div>        
+    </section>
+
+    <!-- FORMATIONS -->
+    <section id="formation">
+        <div class="container">
+            <div class="divider"></div>
+            <div class="heading">
+                <h2>Formations</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="formation-block">
+                        <h5>2021-2022</h5>
+                        <span class="bi-award-fill"></span>
+                        <h3>AFPA - Brest</h3> 
+                        <h4>Développeur Web - Web Mobile<br>(1163 heures)</h4>
+                        <div class="divider"></div>
+                        <p>Front-End :  HTML - CSS - JavaSript (VueJs / jQuery) - Ajax</p>
+                        <p>Back-End : JavaScript (Node.js / Express) - SQL - API - ORM</p>
+                        <p>Wireframing - MVC - MCD - UML - Github - Php - Symfony</p>
+                        <p>Merise - Agile - POO</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="formation-block">
+                        <h5>2021</h5>
+                        <span class="bi-award-fill"></span>
+                        <h3>AFPA - Quimper</h3> 
+                        <h4>Découverte des métiers du numérique<br>(501 heures)</h4>
+                        <div class="divider"></div>
+                        <p>Découverte de différents métiers et activitées liés au numérique :</p>
+                        <p>Technicien cloud / réseaux, assistance, CM</p>
+                        <p>Web designer, médiateur numérique, développeur </p>
+                        <p>Découverte du HTML, CSS, PHP, Wordpress</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <a href="certificat.html" class="btn2">Certificats</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="divider white"></div>
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <!-- 1ere ligne -->
+            <div class="row">                
+                <div class="col-md-3">
+                    <a href="dwwm.html" target="_blank">
+                        <img src="assets/images/dwwm.png" class="img-thumbnail" alt="dwwm">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="travel.html" target="_blank">
+                        <img src="assets/images/voyage.png" class="img-thumbnail" alt="travel agency">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="snake.html" target="_blank">
+                        <img src="assets/images/serpent.png" class="img-thumbnail" alt="snake-game">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="booki.html" target="_blank">
+                        <img src="assets/images/booki.png" class="img-thumbnail" alt="booki">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <!-- 2eme ligne -->
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="grainotheque.html" target="_blank">
+                        <img src="assets/images/grainotheque.png" class="img-thumbnail" alt="grainotheque">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="justeprix.html" target="_blank">
+                        <img src="assets/images/justeprix.png" class="img-thumbnail" alt="juste prix">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="ohmyfood.html" target="_blank">
+                        <img src="assets/images/ohmyfood.png" class="img-thumbnail" alt="Ohmyfood">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="actrices.html" target="_blank">
+                        <img src="assets/images/actrices.png" class="img-thumbnail" alt="top5actrices">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <!-- 3eme ligne -->
+            <!--<div class="row">
+                <div class="col-md-3">
+                    <a href="meteoloc.html" target="_blank">
+                        <img src="assets/images/meteoloc.png" class="img-thumbnail" alt="meteoloc">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="blog.html" target="_blank">
+                        <img src="assets/images/" class="img-thumbnail" alt="blog">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="" target="_blank">
+                        <img src="assets/images/" class="img-thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="" target="_blank">
+                        <img src="assets/images/" class="img-thumbnail" alt="">
+                    </a>
+                </div>
+            </div> -->
+        </div>
+
+    </section>
+
+    <!-- RESEAUX -->
+    <section id="reseaux">
+        <div class="container">
+            <div class="divider"></div>
+            <div class="heading">
+                <h2>Réseaux</h2>
+            </div>
+
+            <div id="myCarousel" class="carousel carousel-dark slide text-center" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">                    
+                        <a href="https://www.linkedin.com/in/sebastien-glippa" target="_blank" class="bi-linkedin"><span class="label"> LinkedIn</span></a>
+                  </div>
+                  <div class="carousel-item">
+                        <a href="https://github.com/sebzh29" target="_blank" class="bi-github"><span class="label"> GitHub</span></a>
+                  </div> 
+                  <div class="carousel-item">
+                    <a href="https://www.rms-rock-music-station.com/" target="_blank" class="bi-music-player"><span class="label"> RMS</span></a>
+              </div>                  
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="divider white"></div>
+            <div class="heading">
+                <h2>Contactez-moi</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Glippa Sébastien</h5>
+                    <h5>sebastien.glippa@hotmail.fr</h5>
+                    <h5>06 24 86 45 68</h5>
+                </div>
+                <div class="col-md-6">
+                    <form id="contact-form" method="post" action="" role="form">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="firstname" class="form-label">Prénom *</label>
+                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="name" class="form-label">Nom *</label>
+                                <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="email" class="form-label">Email *</label>
+                                <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="phone" class="form-label">Téléphone</label>
+                                <input id="phone" type="text" name="phone" class="form-control" placeholder="Votre Téléphone">
+                                <p class="comments"></p>
+                            </div>
+                            <div>
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                                <p class="comments"></p>
+                            </div>
+                            <div>
+                                <p ><strong>* Ces informations sont requises.</strong></p>
+                            </div>
+                            <div>
+                                <input type="submit" class="btn1" value="Envoyer">
+                            </div>  
+                            <!-- <ul>
+                                <li>
+                                    <a href="www.linkedin.com/in/sebastien-glippa" class="bi-linkedin"><span class="label"> LinkedIn</span></a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="https://github.com/sebzh29" class="bi-github"><span class="label"> GitHub</span></a>
+                                    
+                                </li>
+                            </ul>   -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center">
+        <a href="#about"><span class="bi-chevron-up"></span></a>
+        <h5>©2022 - Sébastien Glippa</h5>
+    </footer>
+        
+</body>
+</html>
